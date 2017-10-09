@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APInameAR" xml:space="preserve">
+    <value>OpenApiActivity</value>
+  </data>
+  <data name="APInameBG" xml:space="preserve">
+    <value>OpenApiBG</value>
+  </data>
+  <data name="APInameBO" xml:space="preserve">
+    <value>OpenApiSpO2</value>
+  </data>
+  <data name="APInameBP" xml:space="preserve">
+    <value>OpenApiBP</value>
+  </data>
+  <data name="APInameFOOD" xml:space="preserve">
+    <value>OpenApiFood</value>
+  </data>
+  <data name="APInameSPORT" xml:space="preserve">
+    <value>OpenApiSport</value>
+  </data>
+  <data name="APInameSR" xml:space="preserve">
+    <value>OpenApiSleep</value>
+  </data>
+  <data name="APInameUserInfo" xml:space="preserve">
+    <value>OpenApiUserInfo</value>
+  </data>
+  <data name="APInameWeight" xml:space="preserve">
+    <value>OpenApiWeight</value>
+  </data>
+  <data name="client_id" xml:space="preserve">
+    <value>e4dce2f7027044e0a6ce82e******</value>
+  </data>
+  <data name="client_secret" xml:space="preserve">
+    <value>bb6a0326db55468f8f474a******</value>
+  </data>
+  <data name="DefaultUserAgent" xml:space="preserve">
+    <value>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)</value>
+  </data>
+  <data name="granttypeauthorizationcode" xml:space="preserve">
+    <value>authorization_code</value>
+  </data>
+  <data name="redirect_uri" xml:space="preserve">
+    <value>https://localhost:8080/HendoHealth/tokencallback.aspx********</value>
+  </data>
+  <data name="responsetypecode" xml:space="preserve">
+    <value>code</value>
+  </data>
+  <data name="responsetyperefreshtoken" xml:space="preserve">
+    <value>refresh_token</value>
+  </data>
+  <data name="sc" xml:space="preserve">
+    <value>082a65ac25db4262b795f******</value>
+  </data>
+  <data name="sv_OpenApiActivity" xml:space="preserve">
+    <value>7862387hduewihidu********</value>
+  </data>
+  <data name="sv_OpenApiBG" xml:space="preserve">
+    <value>773278yhd87ey**********</value>
+  </data>
+  <data name="sv_OpenApiBP" xml:space="preserve">
+    <value>n7c4389xj789r43ux4389u*********</value>
+  </data>
+  <data name="sv_OpenApiFood" xml:space="preserve">
+    <value>8y3287yhdewuidehdu*********</value>
+  </data>
+  <data name="sv_OpenApiSleep" xml:space="preserve">
+    <value>79837892hduiwehduiwe*******</value>
+  </data>
+  <data name="sv_OpenApiSpO2" xml:space="preserve">
+    <value>78yudwekjcninciew*********</value>
+  </data>
+  <data name="sv_OpenApiSport" xml:space="preserve">
+    <value>7823yhd87huhewdew***********</value>
+  </data>
+  <data name="sv_OpenApiUserInfo" xml:space="preserve">
+    <value>7y238uidhduiehwduiwe*******</value>
+  </data>
+  <data name="sv_OpenApiWeight" xml:space="preserve">
+    <value>78783278hduhwd**********</value>
+  </data>
+  <data name="urlardata" xml:space="preserve">
+    <value>https://api.ihealthlabs.com:8443/openapiv2/user/{0}/activity.json/</value>
+  </data>
+  <data name="urlardataclient" xml:space="preserve">
+    <value>https://api.ihealthlabs.com:8443/openapiv2/application/activity.json/</value>
+  </data>
+  <data name="urlauthorization" xml:space="preserve">
+    <value>https://oauthuser.ihealthlabs.eu/OpenApiV2/OAuthv2/userauthorization/</value>
+  </data>
+  <data name="urlbackendtest" xml:space="preserve">
+    <value>http://localhost:8080/HendoBackend_war_exploded/request/</value>
+  </data>
+  <data name="urlbgdata" xml:space="preserve">
+    <value>https://openapi.ihealthlabs.eu/openapiv2/user/{0}/glucose.json/</value>
+  </data>
+  <data name="urlbgdataclient" xml:space="preserve">
+    <value>https://api.ihealthlabs.com:8443/openapiv2/application/glucose.json/</value>
+  </data>
+  <data name="urlbodata" xml:space="preserve">
+    <value>https://openapi.ihealthlabs.eu/openapiv2/user/{0}/spo2.json/</value>
+  </data>
+  <data name="urlbodataclient" xml:space="preserve">
+    <value>https://api.ihealthlabs.com:8443/openapiv2/application/spo2.json/</value>
+  </data>
+  <data name="urlbpdata" xml:space="preserve">
+    <value>https://openapi.ihealthlabs.eu/openapiv2/user/{0}/bp.json/</value>
+  </data>
+  <data name="urlbpdataclient" xml:space="preserve">
+    <value>https://api.ihealthlabs.com:8443/openapiv2/application/bp.json/</value>
+  </data>
+  <data name="urlfooddata" xml:space="preserve">
+    <value>https://api.ihealthlabs.com:8443/openapiv2/user/{0}/food.json/</value>
+  </data>
+  <data name="urlfooddataclient" xml:space="preserve">
+    <value>https://api.ihealthlabs.com:8443/openapiv2/application/food.json/</value>
+  </data>
+  <data name="urlsportdata" xml:space="preserve">
+    <value>https://api.ihealthlabs.com:8443/openapiv2/user/{0}/sport.json/</value>
+  </data>
+  <data name="urlsportdataclient" xml:space="preserve">
+    <value>https://api.ihealthlabs.com:8443/openapiv2/application/sport.json/</value>
+  </data>
+  <data name="urlsrdata" xml:space="preserve">
+    <value>https://api.ihealthlabs.com:8443/openapiv2/user/{0}/sleep.json/</value>
+  </data>
+  <data name="urlsrdataclient" xml:space="preserve">
+    <value>https://api.ihealthlabs.com:8443/openapiv2/application/sleep.json/</value>
+  </data>
+  <data name="urluserdata" xml:space="preserve">
+    <value>https://api.ihealthlabs.com:8443/openapiv2/user/{0}.json/</value>
+  </data>
+  <data name="urluserdataclient" xml:space="preserve">
+    <value>https://api.ihealthlabs.com:8443/openapiv2/application/userinfo.json/</value>
+  </data>
+  <data name="urlweightdata" xml:space="preserve">
+    <value>https://openapi.ihealthlabs.eu/openapiv2/user/{0}/weight.json/</value>
+  </data>
+  <data name="urlweightdataclient" xml:space="preserve">
+    <value>https://api.ihealthlabs.com:8443/openapiv2/application/weight.json/</value>
+  </data>
+  <data name="urlindex" xml:space="preserve">
+    <value>https://localhost:1025/iHendoTotem/index.aspx</value>
+  </data>
+  <data name="urllogin" xml:space="preserve">
+    <value>https://localhost:1025/iHendoTotem/login.aspx</value>
+  </data>
+  <data name="urlmeasures" xml:space="preserve">
+    <value>https://localhost:1025/iHendoTotem/measurements.aspx</value>
+  </data>
+  <data name="urlregister" xml:space="preserve">
+    <value>https://localhost:1025/iHendoTotem/register.aspx</value>
+  </data>
+  <data name="urltokencallback" xml:space="preserve">
+    <value>https://localhost:1025/iHendoTotem/tokencallback.aspx</value>
+  </data>
+</root>

@@ -1,0 +1,49 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+form {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    float: left;
+}
+
+.box:last-child::after {
+        display: table;
+        clear: both;
+}
+.mejs-container .mejs-controls {
+    visibility: hidden;
+}
+.main_menu {
+    width: 100px;
+    background-color: #8AE0F2;
+    color: #000;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+}
